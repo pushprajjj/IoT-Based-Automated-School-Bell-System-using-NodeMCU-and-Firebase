@@ -1,32 +1,44 @@
-# Prerequisites
+# NodeMCU and Arduino IDE files
+*.bin
+*.elf
+*.hex
+*.map
 *.d
-
-# Compiled Object files
-*.slo
-*.lo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.a
 *.so
-*.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Build directories
+build/
+dist/
 
-# Compiled Static libraries
-*.lai
-*.la
+# PlatformIO
+.pio/
+.vscode/
+
+# Arduino IDE
+*.ino
+*.cpp
+*.h
+*.o
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# Firebase-related files
+firebase.json
+.firebaserc
+
+# Other IDEs and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
